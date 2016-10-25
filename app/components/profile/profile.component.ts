@@ -8,10 +8,10 @@ import 'rxjs/add/operator/map';
     templateUrl: 'profile.component.html'
 })
 export class ProfileComponent {
-    protected user[];
-    protected repos[];
+    protected user: any;
+    protected repos: any[];
     username: string;
-    
+
     constructor(private _githubService: GitHubService) {
         // this.update();
         this.user = false;
