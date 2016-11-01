@@ -41,6 +41,8 @@
         main: './index.js',
         defaultExtension: 'js'
       }
-    }
+    },
+
+    baseURL: '/github-searcher/',
   });
 })(this);
