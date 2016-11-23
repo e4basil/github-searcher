@@ -4,7 +4,9 @@
  */
 (function (global) {
   System.config({
-    baseURL: '/github-searcher/',
+    baseURL: {
+	'/github-searcher/',
+	}
     paths: {
       // paths serve as alias
       'npm:': 'node_modules/'
@@ -43,7 +45,5 @@
         defaultExtension: 'js'
       }
     },
-
-    baseURL: '/github-searcher/',
   });
 })(this);
