@@ -4,7 +4,7 @@
  */
 (function (global) {
   System.config({
-
+	baseURL: '/github-searcher/',
 
     paths: {
       // paths serve as alias
@@ -45,6 +45,6 @@
       }
     },
 
-    baseURL: '/github-searcher/',
+    
   });
 })(this);
